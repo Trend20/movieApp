@@ -11,6 +11,9 @@ export class MoviesPage implements OnInit {
   constructor(private movieService: MovieService) { }
 
   ngOnInit() {
+    this.movieService.getTopRatedMovies().subscribe(res => {
+      console.log(res);
+    });
   }
 
 }
