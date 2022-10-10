@@ -6,4 +6,8 @@ import { HttpClient } from '@angular/common/http';
 export class MovieService {
 
   constructor(private http: HttpClient) { }
+
+  getTopRatedMovies(){
+    return this.http.get('');
+  }
 }
