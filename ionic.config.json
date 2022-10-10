@@ -1,0 +1,7 @@
+{
+  "name": "modieApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
